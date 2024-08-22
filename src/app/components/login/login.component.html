@@ -1,0 +1,13 @@
+<div class="login-container">
+     <form [formGroup]="loginForm" (ngSubmit)="onLogin()">
+          <!-- Your login form content -->
+          <input type="text" formControlName="email" autocomplete="off"> <br />
+          <input  type="password" formControlName="password" autocomplete="off"><br />
+
+          <button type="submit">Login</button>
+     </form>
+     <!-- Show error message based on the status response -->
+     <div *ngIf="loginError" class="error-message">
+          <span>{{loginError}}</span>
+      </div>
+</div>

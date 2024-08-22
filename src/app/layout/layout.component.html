@@ -1,0 +1,13 @@
+<header *ngIf="isLoggedIn">
+     <!-- Your header content -->
+      <p>header</p>
+      <button (click)="logout()">logout</button>
+</header>
+
+<router-outlet />
+
+<footer *ngIf="isLoggedIn">
+
+     <p>footer</p>
+     <!-- Your footer content -->
+</footer>

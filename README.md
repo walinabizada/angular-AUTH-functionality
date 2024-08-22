@@ -14,15 +14,15 @@
      Verify the installation:
        ng version
    
-3. Clone the Repository:
+4. Clone the Repository:
       First, clone the project repository from GitHub to your local machine.
       git clone https://github.com/walinabizada/angular-AUTH-functionality
       cd angular-AUTH-functionality
    
-4. Install Dependencies:
+5. Install Dependencies:
       npm install
 
-5. Serve the Application:
+6. Serve the Application:
    After installing dependencies, you can serve the Angular application locally using the Angular CLI.
       ng serve
 

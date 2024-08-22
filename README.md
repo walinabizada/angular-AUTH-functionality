@@ -1,28 +1,34 @@
 # angular-AUTH-functionality
 
-1. Install Node.js and npm
-    Ensure you have Node.js and npm installed on your system. You can download and install them from nodejs.org.
-    Verify installation:
-      node -v
-      npm -v
 
-2. Install Angular CLI
-     Angular CLI is a command-line interface tool that helps you create and manage Angular projects.
-     Install Angular CLI globally using npm:
-     npm install -g @angular/cli
+1.	Install Node.js and npm: Ensure you have [Node.js](https://nodejs.org/en) and npm installed on your system. You can download and install them from nodejs.org.
+2.	Verify installation:
    
-     Verify the installation:
-       ng version
+    node –v
+  	 
+  	npm –v
+ 
+4.	Install Angular CLI globally using npm:
    
-4. Clone the Repository:
-      First, clone the project repository from GitHub to your local machine.
-      git clone https://github.com/walinabizada/angular-AUTH-functionality
-      cd angular-AUTH-functionality
-   
-5. Install Dependencies:
-      npm install
+    npm install -g @angular/cli
 
-6. Serve the Application:
-   After installing dependencies, you can serve the Angular application locally using the Angular CLI.
-      ng serve
+6.	Verify the installation:
+   
+    ng version
+
+8.	Clone the Repository:  First, clone the project repository from GitHub to your local machine.
+   
+    git clone https://github.com/walinabizada/angular-AUTH-functionality
+  	 
+    cd angular-AUTH-functionality
+
+10.	Install Dependencies:
+    
+       npm install
+
+12.	Serve the Application: After installing dependencies, you can serve the Angular application locally using the Angular CLI.
+    
+    ng serve
+
+
 
